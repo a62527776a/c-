@@ -1,0 +1,23 @@
+<input>
+<input>
+<button>Êä³ö</button>
+<script>
+let b = 0;
+for(let a = 50;a<=100;a++){
+	b += a;	
+}
+console.log(b);
+for(let b = 10;b>=0;b--){
+	console.log(b);
+}
+document.getElementsByTagName('button')[0].onclick = function(){
+	let num1 = document.getElementsByTagName('input')[0].value;
+	let num2 = document.getElementsByTagName('input')[1].value;
+	for(let a = num1;a<=num2;a++){
+		console.log(a);	
+	}
+	for(let b = num2;b<=num1;b++){
+		console.log(b);	
+	}
+}
+</script>
